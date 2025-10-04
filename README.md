@@ -36,6 +36,9 @@ cd ytdlp-manager
 
 ```
 pip install -r requirements.txt
+
+macOS (Homebrew Required!):
+brew install python-tk
 ```
 
 > requirements.txt の例:
