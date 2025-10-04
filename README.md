@@ -48,7 +48,7 @@ brew install python-tk
 > ```
 
 3. （MP3 変換を使用する場合）ffmpeg をインストールして PATH に追加
-- Windows: https://ffmpeg.org/download.html
+- Windows: https://ffmpeg.org/download.html or scoop install ffmpeg
 - macOS: brew install ffmpeg
 - Linux: sudo apt install ffmpeg
 
@@ -64,18 +64,6 @@ brew install python-tk
 5. 動画・音声の品質を選択
 6. 「ダウンロード」ボタンをクリック
 7. 下部のログと進捗バーで状況を確認
-
----
-
-## ⚙ 設定
-
-- デフォルト保存先: ~/Downloads
-- フォントは OS ごとに自動選択
-  - Windows: Meiryo
-  - macOS: Hiragino Sans
-  - Linux: Noto Sans CJK JP
-- ダウンロード中の進捗と ETA 表示
-- 最大 800 行のログ表示（古いログは自動削除）
 
 ---
 
@@ -96,6 +84,13 @@ ytdlp-manager/
 - MP3 変換には ffmpeg が必須
 - 再生リスト URL は自動で &list= 部分を削除して個別動画として処理
 - エラー発生時はログに詳細表示
+
+---
+
+## 🧪Todo
+
+- [ ] ffmpeg の自動インストール（OS ごとの自動検出と導入）
+- [ ] ビルドスクリプト
 
 ---
 
