@@ -28,7 +28,7 @@
 1. リポジトリをクローンまたは ZIP ダウンロード
 
 ```
-git clone https://github.com/yourusername/ytdlp-manager.git
+git clone https://github.com/kyusumya/ytdlp-manager.git
 cd ytdlp-manager
 ```
 
