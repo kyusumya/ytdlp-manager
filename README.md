@@ -1,6 +1,6 @@
 # 🎬 ytdlp manager
 
-**ytdlp manager** は、YouTube やその他動画サイトから動画や音声を簡単にダウンロードできる GUI ツールです。  
+**ytdlp manager** は、YouTubeから動画や音声を簡単にダウンロードできる GUI ツールです。  
 `yt-dlp` をバックエンドに使用し、**MP4 / MP3** 形式で保存可能！✨
 
 ---
