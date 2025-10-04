@@ -41,12 +41,6 @@ macOS (Homebrew Required!):
 brew install python-tk
 ```
 
-> requirements.txt の例:
-> ```
-> yt-dlp
-> ttkbootstrap
-> ```
-
 3. （MP3 変換を使用する場合）ffmpeg をインストールして PATH に追加
 - Windows: https://ffmpeg.org/download.html or scoop install ffmpeg
 - macOS: brew install ffmpeg
